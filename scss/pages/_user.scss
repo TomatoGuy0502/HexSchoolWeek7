@@ -1,0 +1,17 @@
+.user-center-nav .nav-link{
+  position: relative;
+  &.active::after {
+    content: '';
+    position: absolute;
+    width: calc(100% - 32px);
+    height: 3px;
+    bottom: 4px;
+    left: 16px;
+    background-color: $primary;
+    @include media-breakpoint-up(lg) {
+      width: calc(100% - 16px);
+      left: 0;
+    }
+  }
+}
+

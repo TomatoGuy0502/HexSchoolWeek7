@@ -1,0 +1,9 @@
+.banner {
+  background: url('../assets/images/banner.png') center no-repeat;
+  background-size: cover;
+  height: calc(100vh - 62px);
+}
+
+.perfume-brand, .perfume-price {
+  margin-bottom: 0;
+}
